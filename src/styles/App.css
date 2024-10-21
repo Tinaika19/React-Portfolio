@@ -1,0 +1,207 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #391b7b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Adds space between links */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px; /* Adds padding around the links */
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+nav ul li a:hover {
+  background-color: #391b7b; /* Changes background color on hover */
+  text-decoration: underline;
+}
+/* Styling for navigation links */
+nav {
+  text-align: center;
+  margin-bottom: 20px; /* Adds space below the navigation bar */
+  background-color: #391b7b; /* Change this to any preferred background color */
+  padding: 10px; /* Space around the links */
+}
+
+nav a {
+  margin: 0 15px; /* Adds space between each link */
+  text-decoration: none;
+  color: #fff; /* Makes the text white */
+  font-size: 18px; /* Adjusts the font size */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Adds an underline when hovered */
+  color: #ddd; /* Lightens the color on hover */
+}
+
+.project-image {
+  max-width: 100%;  /* Ensures the image is responsive */
+  height: auto;    /* Maintains aspect ratio */
+  width: 300px;    /* Adjust the width to the size you want */
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #391b7b;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Portfolio section */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.project a {
+  display: inline-block;
+  margin-right: 10px;  /* Adds space between links */
+  padding: 10px 15px;  /* Padding inside the links */
+  background-color: #391b7b;  /* Green background */
+  color: white;  /* White text */
+  text-decoration: none;  /* Removes underline */
+  border-radius: 5px;  /* Adds rounded corners */
+  font-weight: bold;
+  transition: background-color 0.3s ease;  /* Smooth transition on hover */
+
+}
+
+.project-card a:hover {
+  background-color: #391b7b;
+}
+
+/* Contact form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+padding: 10px 15px;
+  background-color: #391b7b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #391b7b;
+}
+/* Mobile styles (for screens up to 768px wide) */
+@media (max-width: 768px) {
+  .project {
+    max-width: 90%;  /* Reduce width to fit better on smaller screens */
+    margin: 10px auto;
+  }
+
+  .project h3 {
+    font-size: 20px;  /* Slightly smaller heading */
+  }
+
+  .project-image {
+    max-width: 100%;  /* Ensure image is responsive */
+    height: auto;
+  }
+
+  .project a {
+    display: block;  /* Stack the links vertically */
+    margin: 10px 0;  /* Add margin between the links */
+    padding: 8px 12px;  /* Slightly smaller padding for mobile */
+  }
+}
+
+/* Mobile styles (for screens up to 768px wide) */
+@media (max-width: 768px) {
+  header {
+    padding: 10px; /* Decrease padding for smaller screens */
+    font-size: 18px; /* Reduce the font size for smaller screens */
+  }
+}
+
+/* Extra small devices (for screens up to 480px wide) */
+@media (max-width: 480px) {
+  header {
+    padding: 8px; /* Further reduce padding for very small screens */
+    font-size: 16px; /* Further reduce font size */
+  }
+}
+/* Footer */
+footer {
+  background-color: #391b7b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ddd;
+}
